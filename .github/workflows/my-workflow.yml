@@ -11,5 +11,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - name: Install npm
+        run: npm install
+        working-directory: ./.github/actions/joke-action
       - name: ha-ha
         uses: ./.github/actions/joke-action
