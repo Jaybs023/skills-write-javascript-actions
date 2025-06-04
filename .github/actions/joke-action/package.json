@@ -1,5 +1,5 @@
 {
-  "name": "joke-actions",
+  "name": "joke-action",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
